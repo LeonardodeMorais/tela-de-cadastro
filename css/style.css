@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-    color: darkgoldenrod;
+    font-family: verdana;
+    color: #000;
     border: none;
 }
 
@@ -22,10 +22,11 @@ label:focus {
 a {
     color: tomato;
 }
+/* troca img do fundo */
 
 body {
     padding-top: 5vh;
-    background-image: url('../img/Testador-de-Software.jpg');
+    background-image: url("C:\Users\Leo\Desktop\GitTela\tela-de-cadastro\img\Testador-de-Software.jpg");
     background-size: cover;
     background-position-y: -150px;
 }
@@ -35,7 +36,7 @@ body {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: tomato;
     border-radius: 10px;
     padding: 25px;
 }
